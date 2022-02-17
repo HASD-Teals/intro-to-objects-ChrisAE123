@@ -65,11 +65,9 @@ public class Dog {
     public void setIsHypoalergenic(boolean isHypoalergenic) {
         this.isHypoalergenic = isHypoalergenic;
     }
-    //#endregion
-
-    //#region Methods
+    //Methods
     public int getHumanAge() {
         return age * humanYears;
     }
-    //#endregion
+   
 }
